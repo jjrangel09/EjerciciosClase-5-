@@ -4,15 +4,29 @@
  * and open the template in the editor.
  */
 package Promedios;
+<<<<<<< HEAD
 
 import java.util.Scanner;
 
+=======
+import java.util.Scanner;
+>>>>>>> master
 /**
  *
  * @author JuanJ
  */
 public class PromediosEst {
+<<<<<<< HEAD
     String nombre;
+=======
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        String nombre;
+>>>>>>> master
         String desea = "si";
         int cantN = 0;
         int nota;
@@ -36,4 +50,8 @@ public class PromediosEst {
         prom=suma/cantN;
         System.out.println("Nombre: "+nombre+", "+"Nota: "+prom);
     }
+<<<<<<< HEAD
 }
+=======
+    
+>>>>>>> master
