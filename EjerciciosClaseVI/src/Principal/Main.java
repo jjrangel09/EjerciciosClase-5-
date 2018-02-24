@@ -3,6 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package principal;
+import Promedios.PromediosEst;
 
 /**
  *
@@ -20,6 +22,7 @@ public class Main {
         System.out.println("2.Epoca del año");
         System.out.println("3.Categoria respecro a la edad");
         System.out.println("4.Conversor de tiempo");
+        
         
     }
     
