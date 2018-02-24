@@ -24,23 +24,23 @@ public class EjercicioClase3 {
         edad= sc.nextInt();
         
         if(edad>=0&&edad<=6){
-           System.out.println("Edad "+edad+" años"); 
+           System.out.println("Edad: "+edad+" años"); 
            System.out.println("Categoria: Pre-Infantil"); 
         }
         if(edad>=7&&edad<=17){
-           System.out.println("Edad "+edad+" años"); 
+           System.out.println("Edad: "+edad+" años"); 
            System.out.println("Categoria: Infantil"); 
         }
         if(edad>=18&&edad<=25){
-           System.out.println("Edad "+edad+" años"); 
+           System.out.println("Edad: "+edad+" años"); 
            System.out.println("Categoria: Juvenil"); 
         }
         if(edad>=26&&edad<=45){
-           System.out.println("Edad "+edad+" años"); 
+           System.out.println("Edad; "+edad+" años"); 
            System.out.println("Categoria: Mayores"); 
         }
         if(edad>=60){
-           System.out.println("Edad "+edad+" años"); 
+           System.out.println("Edad; "+edad+" años"); 
            System.out.println("Categoria: Veteranos"); 
         }
         System.out.println("Desea ver mas categorias?: Si=1, No=2"); 
