@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Promedios;
+package PromediosEst;
 import java.util.Scanner;
 /**
  *
@@ -11,12 +11,12 @@ import java.util.Scanner;
  */
 public class PromediosEst {
 
-    String nombre;
+    
 
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public void promedios () {
         // TODO code application logic here
         String nombre;
 
