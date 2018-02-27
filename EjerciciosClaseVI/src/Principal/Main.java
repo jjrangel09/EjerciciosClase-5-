@@ -4,11 +4,13 @@
  * and open the template in the editor.
  */
 package principal;
+
 import EstacionesAño.EstacionesAño;
 import PromediosEst.PromediosEst;
 import CategoriasEdad.CategoriasEdad;
+import ConvSegundos.Convertidor;
+import Fibonacci.Serie;
 import java.util.Scanner;
-
 
 /**
  *
@@ -25,32 +27,45 @@ public class Main {
         PromediosEst objeto1 = new PromediosEst();
         EstacionesAño objeto2 = new EstacionesAño();
         CategoriasEdad objeto3 = new CategoriasEdad();
-        int a=0;
-        while(a!=2){
+        Convertidor objeto4 = new Convertidor();
+        Serie objeto5 = new Serie();
         int s;
-        System.out.println("             Menu        ");
-        System.out.println("1.Promedio de notas de estudiante");
-        System.out.println("2.Epoca del año");
-        System.out.println("3.Categoria respecto a la edad");
-        System.out.println("4.Conversor de tiempo");
-        System.out.println("Ingrese una opcion ");
-        s = sc.nextInt();
-        switch(s){ 
-            case 1:  
-                objeto1.promedios();
-            break;
-            case 2: 
-                objeto2.estaciones();
-            break;
-            case 3:
-                objeto3.categorias();
-            break;
-            
-        }
-        System.out.println("Desea ver otra opcion? Si=1 No=2");
-        a = sc.nextInt();
-        }
-        
+        do {
+            System.out.println("             Menu        ");
+            System.out.println("1.Promedio de notas de estudiante");
+            System.out.println("2.Epoca del año");
+            System.out.println("3.Categoria respecto a la edad");
+            System.out.println("4.Conversor de tiempo");
+            System.out.println("5.Serie Fibonacci");
+            System.out.println("6.SALIR");
+            System.out.println("Ingrese una opcion: ");
+            s = sc.nextInt();
+            switch (s) {
+                case 1:
+                    objeto1.promedios();
+                    break;
+                case 2:
+                    objeto2.estaciones();
+                    break;
+                case 3:
+                    objeto3.categorias();
+                    break;
+                case 4:
+                    objeto4.Convertidor();
+                    break;
+                case 5:
+                    objeto5.Serie();
+                    break;
+                case 6:
+                    System.exit(0);
+                    break;
+                default:
+                    System.out.println(s + ": No es una Opcion valida.");
+                    System.out.print("Desea seleccionar otra opcion? Si=1 No=2: ");
+                    s = sc.nextInt();
+            }
+
+        } while (s != 2);
+
     }
-    
 }
