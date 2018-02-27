@@ -21,13 +21,13 @@ public class PromediosEst {
         String nombre;
 
         String desea = "si";
-        int cantN = 0;
-        int nota;
-        int suma = 0;
+        float cantN = 0;
+        float nota;
+        float suma = 0;
         float prom;
         
         Scanner sc = new Scanner(System.in);
-        System.out.println("Introduzca el nombre del Estudiante: ");
+        System.out.println("Introduzca el nombre del estudiante: ");
 	nombre = sc.nextLine();
         
         do{
@@ -37,9 +37,10 @@ public class PromediosEst {
             nota = sc.nextInt();
             suma = suma+nota;
             Scanner deseo = new Scanner(System.in);
-            System.out.println("Desea agregar nota? (si/no)");
+            System.out.println("Desea agregar nota? (Si/No)");
 	    desea = deseo.nextLine();
-        }while("si".equals(desea));
+        }
+        while("si".equals(desea));
         prom=suma/cantN;
         System.out.println("Nombre: "+nombre+", "+"Nota: "+prom);
     }
