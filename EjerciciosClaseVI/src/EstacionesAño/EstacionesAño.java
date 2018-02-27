@@ -9,12 +9,12 @@ import java.util.Scanner;
 
 /**
  *
- * @author JuanJ y CarlosO
+ * @author CarlosO
  */
 public class EstacionesAño {
 
     /**
-     * @param args the command line arguments
+     * 
      */
     public void estaciones() {
         // TODO code application logic here

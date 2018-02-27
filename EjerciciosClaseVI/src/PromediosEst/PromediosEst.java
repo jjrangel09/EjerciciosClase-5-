@@ -8,13 +8,17 @@ package PromediosEst;
 import java.util.Scanner;
 
 /**
- *
- * @author JuanJ
+ * Clase que contiene el metodo para calcular el promedio de un estudiante.
+ *@author Juan José Rangel
+ *@since Version 1.3
  */
 public class PromediosEst {
 
     /**
-     * @param args the command line arguments
+     * Metodo que solicita Nombre y x cantidad de notas para calcular el promedio de un estudiante.
+     * @since Version 1.0
+     * @version 1.1
+     * @author Juan José Rangel
      */
     public void promedios() {
         // TODO code application logic here

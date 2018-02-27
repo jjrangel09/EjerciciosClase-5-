@@ -8,13 +8,17 @@ package ConvSegundos;
 import java.util.Scanner;
 
 /**
- *
- * @author JuanJ
+ * Clase que contiene función para convertir segundos en diferentes multiplos.
+ * @author  Juan José Rangel
+ * @version 1.3
+ * @since version 1.3
  */
 public class Convertidor {
 
     /**
-     *
+     *Metodo que calcula X cantidad de segundos en Minutos Horas Dias y Semanas.
+     *@author Juan Josè Rangel
+     *@since vesion 1.3
      */
     public void Convertidor() {
         int desea = 1, segIng, temp, min = 60, segHr = (min * 60), segDia = (segHr * 24), segSem = (segDia * 7), segs, mins, hrs, dias, semanas;

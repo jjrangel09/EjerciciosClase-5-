@@ -9,12 +9,12 @@ import java.util.Scanner;
 
 /**
  *
- * @author JuanJ
+ * @author CarlosO
  */
 public class CategoriasEdad {
 
     /**
-     * @param args the command line arguments
+     * 
      */
     public void categorias() {
         // TODO code application logic here
